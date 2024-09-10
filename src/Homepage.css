@@ -1,0 +1,34 @@
+.homepage-container {
+    background-color: rgb(125, 218, 237); /* Set the background color to white */
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 20px; /* Optional: Add some padding for inner spacing */
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(186, 227, 225); /* Ensure navbar also has a white background */
+    padding: 10px 0;
+  }
+  
+  .nav-button {
+    width: 16.66%; /* Make buttons take up equal width */
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    background-color: #e0e0e0; /* Light gray button color for visual contrast */
+    margin: 0 5px;
+  }
+  
+  .orange-button {
+    background-color: #ffa726; /* Specific color for the Home button */
+  }
+  
